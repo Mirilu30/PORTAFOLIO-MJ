@@ -1,0 +1,71 @@
+
+body {background-color: rgb(249, 198, 179);
+    padding-top: 40px;
+    font-family: "Roboto" sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+h1{
+    font-family: "Roboto" sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+.text-m{
+    font-family: "Roboto" sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.card {
+    border-color: beige;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+}
+.section {
+    width: 50%;
+}
+.foto {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 12px;
+}
+.status {
+    border: 1px solid color rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 8px;
+    display: flex;
+    margin: 16px;
+}
+.status-p {
+    margin: 0;
+    margin-left: 8px;
+}
+#puntito {
+    height: 15px;
+    width: 15px;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+.border-b {
+    background-color: black;
+    color: rgb(158, 173, 173);
+    padding: 20px;
+    border-radius:  30px;
+}
+.btn-border {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius:  30 px;
+    background-color: azure;
+}
